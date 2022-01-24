@@ -57,6 +57,7 @@ a {
 
 .close-form:hover {
   cursor: pointer;
+  color: #ccc;
 }
 
 .content {
