@@ -1,0 +1,66 @@
+.form{
+    background: linear-gradient(rgb(49,16,52), rgb(82,48,84));
+    display: flex;
+    height: 560px;
+    width: 750px;
+    margin-left: 300px;
+    margin-top: 30px;
+}
+
+.login{
+    background-color: white;
+    height: 280px;
+    width: 375px;
+    margin-top: 130px;
+    margin-left: 190px;
+}
+
+.heading{
+    height: 60px;
+    width: 375px;
+    background-color: rgb(111,75,114);
+    margin-top: -21px;
+    display: flex;
+}
+
+h3{
+    color: white;
+    margin-left: 30px;
+}
+
+#icon1{
+    margin-left: 210px;
+    color: rgb(197, 190, 197);
+    margin-top: 24px;
+}
+
+.body{
+    height: 242px;
+    width: 375px;
+    background-color: rgb(242,242,242);
+    display: flex;
+}
+
+input{
+    height: 50px;
+    width: 300px;
+    background-color: white;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+button{
+    height: 40px;
+    width: 92px;
+    background-color: rgb(115,78,118);
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(83, 83, 83);
+    margin-left: 20px;
+}
