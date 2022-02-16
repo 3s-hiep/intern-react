@@ -1,6 +1,6 @@
-| Feature        | title          |
-| -------------- | -------------- |
-| [CE-XXX](url) | _feature name_ |
+| Feature    | title          |
+| ---------- | -------------- |
+| [UserName] | _feature name_ |
 
 **Describe the feature**
 _A clear and concise description of what this feature for._
@@ -12,9 +12,6 @@ _Something you want to be checked about your feature._
 
 **Done tests checkbox**
 
-- [ ] Unit test
-- [ ] E2E test
-- [ ] Storybook
 - [ ] Manual test
 
 **About Pull Request checkbox**
