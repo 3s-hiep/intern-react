@@ -1,3 +1,16 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-MediumExt.woff2') format('woff2'),
+        url('HelveticaNeue-MediumExt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+html{
+    font-family: 'Helvetica Neue';
+}
+
 body{
     background-color: #341336;
 }
@@ -21,7 +34,6 @@ body{
     width: auto;
     border-bottom: 1px solid #666;
     background-image: linear-gradient(#78517b,#67466a);
-    font-weight: 700;
     font-size: 1.2rem;
     color: white;
 }
@@ -88,12 +100,10 @@ body{
     margin-top: 25px;
 }
 .signin a{
-    font-size: 1.2rem;
+    font-size: 1rem;
     text-decoration: none;
     color: #999;
-    font-weight: 700;
     margin-left: 40px;
-    margin-top: -5px;
 }
 .signin-btn{
     height: 50px;
