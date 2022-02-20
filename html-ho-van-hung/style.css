@@ -74,7 +74,7 @@ a {
   height: 50px;
   border-radius: 0.3rem;
   width: 100%;
-  border: 1px solid #ccc;
+  border: 1px solid #dfdfdf;
   padding: 0px 45px 0px 20px;
   background-color: #f0eef0;
   outline: 0;
@@ -82,7 +82,6 @@ a {
   font-size: 1.2rem;
   font-family: inherit;
   color: #999999;
-  border-color: #dfdfdf;
 }
 
 .input-icon {
