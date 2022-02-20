@@ -3,12 +3,20 @@
     padding: 0;
     margin: 0;
   }
+
+  @font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-MediumExt.woff2') format('woff2'),
+        url('HelveticaNeue-MediumExt.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
   
   .main{
       height: 100vh;
       width: 100vw;
-      background-color: rgb(49,15,51);
-      background-color: linear-gradient(rgb(65, 3, 65), rgb(235, 168, 241));
+      background: url('./Background.png') ;
       
   }
   .login-form {
@@ -19,6 +27,7 @@
     margin: 0 auto;
     height: 450px;
     flex-direction: column;
+
   }
   
   .header {
@@ -33,19 +42,27 @@
   .heading {
     color: white;
     width: 400px;
+    font-family: Helvetica;
+    font-size: 14px;
   }
-
+/* 
   .close {
     min-width: 32px;
     border: none;
     background-color: transparent;
     color: white;
     font-weight: bold;
+  } */
+
+  #icon_close{
+    color: white;
+    margin-right: 7px;
   }
+
   .form {
     margin-top: 20px;
     width: 400px;
-    background-color: rgb(153, 149, 153);
+    background-color: #f2f2f2;
     margin-top: -7px;
   }
   
@@ -56,12 +73,16 @@
     padding: 10px;
     background-color: rgb(238, 234, 241);
     position: relative;
+    font-family: Helvetica;
+    font-size: 14px;
+    
   }
   .form-control > input {
     border: none;
     outline: none;
     padding: 14px 12px;
     width: 100%;
+    border: 1px solid #dfdfdf;
   }
 
   .form-control > i {
@@ -79,17 +100,27 @@
   }
   
   .btn-submit {
-    min-width: 64px;
+    min-width: 100px;
     padding: 10px 12px;
-    border: 5px;
-    background-color: rgb(114,77,117);
+    border-radius: 5px;
+    background: linear-gradient(#71396D, #763C73);
     margin-top: 10px;
     color: white;
     margin-left: 10px;
+    font-family: Helvetica;
+    font-size: 14px;
   }
   
   .forgot-password {
         margin-left: 20px;
         margin-top: 6px;
+        font-family: Helvetica;
+        font-size: 14px;
+        color: #5f5d5d;
   }
 
+  input{
+    background-color: #efeef0;
+    border: 100px groove #a3a1a1;
+    border-radius: 7px;
+  }
